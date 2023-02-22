@@ -6,8 +6,10 @@ name: Go
 on:
   push:
     branches: [ "main" ]
+    paths: [ "gallery-service/**", ".github/workflows/go.yml" ]
   pull_request:
     branches: [ "main" ]
+    paths: [ "gallery-service/**", ".github/workflows/go.yml" ]
 
 jobs:
   build:
