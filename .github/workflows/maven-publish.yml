@@ -35,6 +35,3 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B -Dmaven.test.skip package --file pom.xml
-      
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s -Dmaven.test.skip $GITHUB_WORKSPACE/settings.xml
