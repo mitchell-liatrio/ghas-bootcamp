@@ -8,8 +8,8 @@ on:
     branches:
       - main
     paths:
-      - ./storage-service/*
-      - ./.github/workflows/maven-publish.yml
+      - storage-service/**
+      - .github/workflows/maven-publish.yml
 
 jobs:
   build:
